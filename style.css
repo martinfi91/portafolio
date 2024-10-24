@@ -1,0 +1,316 @@
+:root {
+    --color-de-fondo: #ffffff;
+    --color-de-de-fondo-menu: #53cfd1;
+    --color-de-link: #060606;
+    --color-de-letra: #060606;
+    --color-sombras: #a8aaaa;
+}
+
+body{
+    background-color: var(--color-de-fondo);
+    font-family: 'Poor Story';
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+/*menu*/
+.cabecera {
+    display: flex;
+    gap: 20%;
+   justify-content: space-between;
+   padding-right: 30px;
+   width: 98%;
+   align-items: center;
+   position: fixed;
+   z-index: 1000;
+   padding-top: 15px;
+   padding-left: 20px;
+   background-color: var(--color-de-de-fondo-menu);
+}
+
+.logo_cabecera {
+    max-width: 90px;
+    
+
+}
+
+
+
+.cabecera_list{
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    width: 60%;
+    font-weight: 600;
+    margin-right: 40px;
+}
+/*primera pagina*/
+.bloques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9%;
+    gap: 3%;
+    height: 530px;
+    background-image: url(/img/doodles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.introduccion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 40px;
+    margin-bottom: 90px;
+}
+
+.hi{
+    font-size: 4.5rem;
+
+}
+
+.here{
+    color: var(--color-de-letra);
+    font-size: 3.8rem;
+}
+
+.entusiast{
+    color: var(--color-de-letra);
+    font-size: 2.5rem;
+    text-align: left;
+    line-height: 30px;
+    width: 520px;
+
+}
+
+.martin{
+    border: 5px solid #53cfd1;
+    
+
+}
+/*botones primera pagina*/
+
+.cuerpo_botones {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 150%;
+    
+}
+
+
+.buttons:hover {
+    box-shadow: 2px 2px 4px var(--color-de-de-fondo-menu);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    gap: 3%;
+    font-size: 2rem;
+    box-shadow: var(--color-de-letra) 0px 20px 40px -12px, var(--color-de-letra) 0px 15px 23px -15px;
+    
+    }
+
+.logos{
+    height: 50px;
+      
+}
+
+/*segunda pagina*/
+
+
+
+.about_me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 40px;
+    margin-bottom: 90px;
+    
+    
+
+}
+
+.me{
+    color: var(--color-de-de-fondo-menu);
+    font-size: 4.5rem;
+    
+}
+
+.resaltado{
+    font-size: 3.5rem;
+    
+    
+
+}
+
+.parra{
+    font-size: 1.5rem;
+}
+
+.sski{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    gap: 1%;
+    font-size: 2rem;
+}
+
+.soft_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 150%;
+}
+
+.achievements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 2rem;
+    gap: 3%;
+    box-shadow: var(--color-sombras) 0px 20px 40px -12px, var(--color-sombras) 0px 15px 23px -15px;
+    
+}
+
+
+/*tercera pagina*/
+
+
+
+.sk{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 40px;
+    margin-bottom: 90px;
+}
+
+
+.base{
+    
+        display: flex;
+        align-items: center;
+        padding-top: 10%;
+        padding-right: 5%;
+        gap: 20%;
+    
+}
+
+/*cuarta pagina*/
+
+
+
+.hob{
+        display: flex;
+        align-items: center;
+        padding-top: 10%;
+        padding-right: 5%;
+        gap: 5%;
+}
+
+/*quinta pagina*/
+
+.lista_formacion{
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-right: 5%;
+    gap: 5%;
+}
+
+.udec{
+    height: 200px;
+}
+.forma{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    gap: 3%;
+}
+
+
+/* sexta pagina*/
+
+.enc{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    gap: 3%;
+}
+
+/*septima pagina*/
+
+.phone{
+    padding-left: 5%;
+    margin-bottom: 25%; 
+
+}
+
+.imputs_seccion{
+    width: 70%;
+    align-content: center;
+}
+
+.seccion_imputs{
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+.message{
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+
+/*rodapie*/
+
+.rodapie{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1rem;
+    background: var(--color-de-de-fondo-menu);
+    height: 80px;
+}
+
+/*responsividad*/
+
